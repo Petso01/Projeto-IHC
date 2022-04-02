@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body{ /*corpo css*/
+width: 100%;
+}
+
+header#cabecalho{
+background: none;
+border-bottom: 1px black solid; /*tamanho,cor,tipo de borda*/ 
+height: 150px; /*espaço de cabeçalho*/
+
+}
+header#cabecalho ul{
+    list-style: none; /*comando para sumir bolinhas menu*/
+    position: absolutecent; /*posição do menu*/
+    left: 1400px;  /*deslocamento do menu a direita*/
+}
+header#cabecalho li{
+display: inline-block; /*Menu em linha*/
+background-color: none; /*cor de fundo do cabeçalho*/
+padding: 35px; /*afastamento bordas menu*/
+transition: background-color 1s; /*tempo para mudar cor cabeçalho após passar mouse*/
+}
+header#cabecalho li:hover { /*css para coloração cabeçalho*/
+background-color: rgb(39, 37, 37); /*cor do cabeçalho ao passar mouse*/
+}
+header#cabecalho a{
+color: white; /*cor de letras menu*/
+text-decoration: none; /*sumir linha cabeçalho*/
+font-size: 21px; /*tamanho letras menu*/
+}
+header#cabecalho img#logo{
+    position: absolute;
+    width: 140px;
+}
+section#corpo h1{
+color: white; /*cor letras titulo*/
+text-align: center; /*centralizando titulo*/
+font-size: 60px;
+}
+section#corpo p{
+color: white; /*cor letras paragrafo*/
+text-align: center; /*centralizando paragrafo*/
+font-size: 30px;
+}
+
+section#corpo h2{
+    color: white; /*cor letras titulo*/
+    text-align: center; /*centralizando titulo*/
+    font-size: 60px;
+    }
+    section#corpo p{
+    color: white; /*cor letras paragrafo*/
+    text-align: center; /*centralizando paragrafo*/
+    font-size: 30px;
+    }
+
+    section#corpo h3{
+        color: white; /*cor letras titulo*/
+        text-align: center; /*centralizando titulo*/
+        font-size: 60px;
+        }
+        section#corpo p{
+        color: white; /*cor letras paragrafo*/
+        text-align: center; /*centralizando paragrafo*/
+        font-size: 30px;
+        }
+        section#corpo h4{
+            color: white; /*cor letras titulo*/
+            text-align: center; /*centralizando titulo*/
+            font-size: 60px;
+            }
+            section#corpo p{
+            color: white; /*cor letras paragrafo*/
+            text-align: center; /*centralizando paragrafo*/
+            font-size: 30px;
+            }
+            section#corpo h6{
+                color: white; /*cor letras titulo*/
+                text-align: center; /*centralizando titulo*/
+                font-size: 60px;
+                }
+                section#corpo p{
+                color: white; /*cor letras paragrafo*/
+                text-align: center; /*centralizando paragrafo*/
+                font-size: 30px;
+                }
+                section#corpo1 h1{
+                    color: white; /*cor letras titulo*/
+                    text-align: center; /*centralizando titulo*/
+                    font-size: 60px;
+                    }
+                    section#corpo1 p{
+                    color: white; /*cor letras paragrafo*/
+                    text-align: center; /*centralizando paragrafo*/
+                    font-size: 30px;
+                    }
+                    section#corpo h8{
+                        color: white; /*cor letras titulo*/
+                        text-align: center; /*centralizando titulo*/
+                        font-size: 60px;
+                        }
+                        section#corpo p{
+                        color: white; /*cor letras paragrafo*/
+                        text-align: center; /*centralizando paragrafo*/
+                        font-size: 30px;
+                        }
+                        section#corpo h9{
+                            color: white; /*cor letras titulo*/
+                            text-align: center; /*centralizando titulo*/
+                            font-size: 60px;
+                            }
+                            section#corpo p{
+                            color: white; /*cor letras paragrafo*/
+                            text-align: center; /*centralizando paragrafo*/
+                            font-size: 30px;
+                            }
+footer#rodape p{
+color: white; /*cor letras paragrafo*/
+}
+footer#rodape {
+    display: block; 
+}
+body#formulario {
+color: white;
+text-align: left ;
+
+}
+
+
